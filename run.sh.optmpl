@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pip install .
+
+gehome-appliance-data -u '{{ op://Personal/hxervd7r5dz4mbaq7lttl7vdz4/username }}' -p '{{ op://Personal/hxervd7r5dz4mbaq7lttl7vdz4/password }}' -r 'US'
